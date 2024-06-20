@@ -11,7 +11,7 @@ body {
 
 .layout {
     display: grid;
-    grid-template-columns: 275px 675px auto;
+    grid-template-columns: 275px 685px auto;
     margin: 0 auto;
 }
 
@@ -75,6 +75,11 @@ body {
     font-weight: 700;
     cursor: pointer;
     margin-top: 20px;
+}
+
+.layout-main-section {
+    border-left: 1px solid #e6ecf0;
+    border-right: 1px solid #e6ecf0;
 }
 
 .main-top {
